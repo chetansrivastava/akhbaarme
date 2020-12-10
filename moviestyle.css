@@ -227,7 +227,7 @@ header .upper img
 @media( max-width: 1000px){
 
 	.plate .lists ul   {
-		font-size: 16px;
+	 display: none;
 	}
 	.doe{
 		display: block;
