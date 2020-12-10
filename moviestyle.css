@@ -238,10 +238,12 @@ header .upper img
 	}
 	.me{
 		font-size: 16px;
+		margin: 20px;
 	}
 	.me img{
 		width: 100%;
 		padding-bottom: 10px;
+
 	}
 
 }
