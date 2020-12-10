@@ -82,6 +82,9 @@ header .upper img
 	height: 30%;
 	margin-bottom: 30px;
 }
+.sidele{
+	display: none;
+}
 .me{
 	flex: 1;
 	height: auto;
@@ -115,6 +118,7 @@ header .upper img
 	border-bottom: 1px solid blue;
     
 }
+
 .plate .content.contenteng{
 	display: block;
 	margin: 0;
@@ -168,7 +172,7 @@ header .upper img
 .plate .lists ul{
 	
 	list-style: none;
-	margin-top: -2%;
+	margin-top: -3%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -177,7 +181,7 @@ header .upper img
 
 .plate .lists ul li{
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), rgba(23, 135, 150);
-	width: 200px;
+	width:200px;
 	border: 2px solid #fff;
 	border-radius: 10px;
 	height: 50px;
@@ -261,14 +265,11 @@ header .upper img
 	width: 100px;
 	height: 35px;
 }
-
 .check:after{
-	
 	left: 20px;
 	top: -80px;
 	width: 35px;
-	height: 35px;
-	
+	height: 35px;	
 }
 .check:checked:after{
 	left: 85px;
@@ -278,7 +279,11 @@ header .upper img
 	position: relative;
 	top: -20px;
 }
-
+.plate .lists ul li a{
+	position: relative;
+	font-size: 24px;
+	left: -4px;
+}
 .doe{
 	display: block;
 }
@@ -292,6 +297,9 @@ header .upper img
 .side{
 	display:flex;
 
+}
+.sidele{
+	display: flex;
 }
 .me ul li a{
 	font-size: 20px;
