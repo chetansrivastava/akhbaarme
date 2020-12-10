@@ -243,11 +243,6 @@ header .upper img
 	color: white;
 }
 
-
-
-
-
-
 @media (max-width:1000px){
 .plate .lists{
 	position: relative;
@@ -265,7 +260,7 @@ header .upper img
 	margin-right: 20px;
 }
 .side{
-	display: flex;
+	display:block;
 
 }
 .me ul li a{
