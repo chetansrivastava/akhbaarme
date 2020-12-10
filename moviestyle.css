@@ -227,7 +227,8 @@ header .upper img
 @media( max-width: 1000px){
 
 	.plate .lists ul   {
-	 
+	  position: relative;
+	  top: -10px;
 	}
 	.doe{
 		display: block;
@@ -238,7 +239,8 @@ header .upper img
 	}
 	.me{
 		font-size: 16px;
-		margin: 200px;
+		margin: 20px;
+		
 	}
 	.me img{
 		width: 100%;

@@ -202,9 +202,11 @@ header .upper img
 
 
 
-@media (max-width: 1000px;){
-	.plate .lists{
+@media (max-width: 1000px){
+	.plate .lists ul{ 
+		
 	position: relative;
-	top: -4%;
-}
+	top: -10px;
+
+     }
 }
